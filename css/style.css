@@ -14,7 +14,7 @@
 
 body{
    
-    font-family: 'NerkoOne', sans-serif;
+    font-family: 'Nerko One', cursive;
     background-color: rgb( 173, 216, 230);
 }
 
@@ -34,7 +34,7 @@ header h1{
     text-transform: uppercase ;
     line-height: 100px;
     text-align: center;
-    font-size: 50px;
+    font-size: 70px;
 }
 
 
@@ -51,6 +51,7 @@ header h1{
     display: inline-block;
     margin-right: 20px;
     margin-bottom: 40px;
+    
 }
 
 .card-back{
@@ -60,16 +61,17 @@ header h1{
     border-radius: 10px;
     background-color: white;
     display: none;
+    
 }
 
-.baloon{
+img{
     width: 150px;
     height: 150px;
     text-align: center;
 }
 
 .card-title{
-    font-size: 15px;
+    font-size: 30px;
     font-weight: 900;
     color: purple;
     text-align: center;
@@ -78,9 +80,26 @@ header h1{
 
 
 .card-front:hover .card-back{
-    
     display: block;
+    
 }
+
+.card-back:hover .card-title{
+    color: orange;
+}
+
+.third-row div{
+    margin-bottom: 0;
+}
+
+/* FOOTER */
+.footer-box{
+    text-align: center;
+}
+
+
+
+
 
 
 
